@@ -52,6 +52,7 @@ buttons.forEach((button) => {
             resultOutput.textContent = 'End of 5 round game.';
             return;
         } else {
+            resultOutput.textContent = "Round: " + gameScore;
             gameScore++;
         }
     });
